@@ -1,0 +1,156 @@
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  padding-bottom: 9%;
+  padding-top: 2%;
+
+}
+.container-fluid{
+  padding: 3% 25%;
+}
+body{
+  font:"Montserrat";
+}
+
+h1{
+  font:"Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font:"Montserrat";
+  font-weight: bold;
+  font-size:3rem;
+  line-height:1.5;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+
+}
+.row{
+  padding-top:8%;
+  padding-bottom: 6%;
+
+}
+.navbar{
+  padding: 0 0 10% ;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family: "Montserrat-Light"
+}
+.download-button{
+  margin:5% 3% 0 0;
+}
+.title-image{
+  width:20%;
+  transform: rotate(25deg);
+  margin-left: 10%;
+  position:absolute;
+  right:17%;
+}
+
+#features{
+  background-color: white;
+  position:relative;
+  z-index:1;
+}
+.list{
+  margin-left:auto;
+}
+.h3{
+  font-family: "Montserrat-bold";
+}
+.feature-box{
+
+  font-weight: bold;
+  text-align: center;
+}
+p{
+  color:grey;
+  padding:2% 7%;
+}
+.fa{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.fa:hover{
+  color:#ff4c68;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68;
+  color:white;
+}
+.testimonials{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color: #ff4c68;
+  padding:10% 15% 5%;
+}
+.press{
+  margin-left:2%;
+  width:22%;
+  padding-left: 5%;
+
+}
+.carousel-item{
+  padding:7% 15%;
+
+}
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+@media (max-width:763px){
+  .title-image{
+    position:static;
+    width:120%;
+    transform: rotate(0);
+    margin-left: 0;
+    margin-top:30%;
+
+  }
+  #title{
+    text-align:center;
+  }
+
+
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding:150px;
+  color:white;
+  text-align:center;
+  font-weight:bold;
+  line-height: 5%;
+}
+.btn-cta{
+  margin-top:5%;
+}
+#footer{
+  background-color:white;
+  text-align: center;
+  padding-top:5%;
+}
+.footer0{
+  padding-left:10px;
+  color:black;
+}
+.cta-h3{
+  padding-bottom: 3%;
+}
